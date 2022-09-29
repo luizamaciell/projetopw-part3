@@ -82,6 +82,8 @@ const items = [
         if(val.quantidade > 0){
             containerCarrinho.innerHTML += `
             <p1>Carrinho:</p1>
+
+            
             <p>` +val.nome+` | quantidade: `+val.quantidade+`</p>
             <hr>
 
