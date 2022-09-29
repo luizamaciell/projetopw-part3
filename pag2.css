@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+*{
+    margin: 0;
+}
+
+html{
+    font-weight: 100;
+}
+h1{
+    text-align: center;
+    color: #496a3d;
+    font-size: 40px;
+    padding:10px;
+    
+}
+body{
+    background-color: #e3c994;
+    font-family: "Roboto", sans-serif;
+
+}
+:root {
+    --cor-fundo: #496a3d;
+    --cor-hover:  #679c54;
+    --cor-primaria: rgb(231, 241, 236);
+}
+
+.dp-menu ul {
+    list-style-type: none;
+    padding: 10;
+    width: auto;
+}
+
+.dp-menu ul {
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px;
+    font-size: 20px;
+    
+}
+
+.dp-menu ul li a:hover {
+    background-color: var(--cor-hover);
+}
+.container {
+    position: relative;
+   overflow: hidden;
+   width: 1347px;
+   height: 730px;
+   margin: 0px;
+    top: 100%;
+}
+.container img{
+   max-width: 400%;
+   max-height: 400%;
+   -moz-transition: all 0.5s;
+   -webkit-transition: all 0.5s;
+   transition: all 0.5;
+}
+.container:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.rodape{
+    border:1px black solid;
+    align-items:flex-start;
+}
+h2{
+    color: #496a3d;
+}
+.img src{
+    max-width:150px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+footer{
+    font-size: 17px;
+    font-weight: bold;
+}
